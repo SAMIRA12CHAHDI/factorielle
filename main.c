@@ -22,12 +22,15 @@ int main() {
    	  F=F*i;
       
    }
-     printf("le factorielle de %d ", F);	 
+     printf("le factorielle de  %d est %d ",N, F \n);	 
+	
+	
+	
          printf("saisir un  nombre pour calculer sa factorielle \n ");
     scanf("%d",&N);
        
      Fact = factorielle(N); 
-        printf("le factorielle de %d ", Fact);
+        printf("le factorielle de %d est %d ", N , Fact);
         
 	return 0;
 }
